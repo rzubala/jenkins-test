@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
 rm -rf dist/*
-tsc
+npx tsc
 node dist/app.js
